@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Backgrounds</title>
+        <style>
+            body{
+                /* background-color: aqua; */
+                /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8kqe-5GbovzJEuO0B5uhhbC-sbxdT5ZsFhA&s"); */
+                /* background: linear-gradient(red,blue,yellow,green); */
+                /* background: linear-gradient(to right,red,blue,black); */
+                /* background: linear-gradient(to bottom,red,blue,black); */
+                /* background: linear-gradient(to left,red,black,blue); */
+                /* background: linear-gradient(to top,red,black,blue); */
+
+
+            }
+
+            @keyframes MyAnimations{
+                0%{background-color: red;}
+                25%{background-color: yellow;}
+                50%{background-color: green;}
+                100%{background-color: blue;}
+            }
+            #Box1{
+                background-color: red;
+                height: 200px; width: 200px;
+                animation-name: MyAnimations;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+
+
+            }
+            #Box2{
+                background-color: green;
+                height: 125px; width: 200px;
+                animation-name: MyAnimations2;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes MyAnimations2{
+                0%{width: 100px;}
+                25%{width: 200px;}
+                50%{width: 300px;}
+                100%{width: 400px;}
+            }
+            #Box3{
+                background-image: url(https://media.istockphoto.com/id/926681406/photo/meadow-with-wildflowers-under-the-bright-sun.jpg?s=612x612&w=0&k=20&c=aLR1ZmFZkpniTxMXa-Fs5jqClGUDWO8agCYoWUxsudI=);
+                height: 200px; width: 200px;
+                /* background-position: top right; */
+                background-position: center center;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <h1>Hey what's up! I am Jawwad, I am fifteen. I like gaming, listening to music and watching anime.</h1>
+        <div id="Box1">
+            <h1>Hi!</h1>
+        </div>
+        <div id="Box2">
+            <h1>Hello! What's up!</h1>
+
+        </div>
+        <br>
+        <div id="Box3">
+            <h1>I am Jawwad :D</h1>
+        </div>
+    </body>
+
+</html>
